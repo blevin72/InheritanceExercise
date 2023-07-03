@@ -24,16 +24,32 @@ namespace Inheritance
 
 
             /*Create an object of your Bird class
+             * 
              *  give values to your members using the object of your Bird class
              *  
              * Creatively display the class member values 
              */
+            Bird bird = new Bird();
+            bird.Legs = 2;
+            bird.Wings = 2;
+            bird.CanFly = true;
+            bird.LaysEggs = true;
+
+            bird.Birds();
+            Console.WriteLine("");
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+            Reptile reptile = new Reptile();
+            reptile.ColdBlooded = true;
+            reptile.HasLungs = true;
+            reptile.LaysEggs = true;
+            reptile.Sheds = true;
+
+            reptile.Reptiles();
         }
     }
 }
