@@ -17,7 +17,11 @@ namespace Inheritance
 
         public void Reptiles()
         {
-            Console.WriteLine($"Reptiles are cold blooded animals that lay eggs instead of giving birth to live young. Unlike amphibians they breathe through lungs instead of gills. As they grow reptiles will shed their skin.");
+            Console.WriteLine($"Reptiles are:");
+            Console.WriteLine($"Cold Blooded: {ColdBlooded}");
+            Console.WriteLine($"Reproduce by laying eggs: {LaysEggs}");
+            Console.WriteLine($"Breathe through lungs instead of gills: {HasLungs}");
+            Console.WriteLine($"Sheds it's skin as it grows: {Sheds}");
         }
 
     }

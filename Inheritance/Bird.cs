@@ -18,7 +18,9 @@ namespace Inheritance
 	
 		public void Birds()
 		{
-			Console.WriteLine($"Birds are animals with {Legs} legs and {Wings} wings, that they use to fly around. Birds reproduce by laying eggs unlike mammals who birth live young.");
+			Console.WriteLine($"Birds have {Legs} legs as well as {Wings} wings.");
+			Console.WriteLine($"Birds have the ability to fly: {CanFly}");
+			Console.WriteLine($"Birds reproduce by laying eggs {LaysEggs}");
 		}
 	}
 }
